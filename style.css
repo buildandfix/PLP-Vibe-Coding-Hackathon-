@@ -1,0 +1,106 @@
+
+body {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.price-section {
+    margin-bottom: 24px;
+}
+.price-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.product-card {
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+.product-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+}
+.delete-btn {
+    color: #dc3545;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+.delete-btn:hover {
+    color: #a71d2a;
+}
+.delete-product-btn {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #dc3545;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.delete-product-btn:hover {
+    color: #a71d2a;
+}
+.cheapest {
+    color: #28a745;
+    font-weight: bold;
+}
